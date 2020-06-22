@@ -110,7 +110,7 @@ class InfinityTable extends PureComponent {
   componentDidMount() {
     /* eslint-disable */
     this.refScroll = ReactDOM.findDOMNode(this).getElementsByClassName(
-      'ant-table-body',
+      'ant-table-tbody',
     )[0];
     this.refTable = this.refScroll.getElementsByTagName('tbody')[0];
     /* eslint-enabled */
